@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://abhi2prohydra.github.io/deploy-pr",
+ "homepage": "https://abhi2prohydra.github.io/deploy-pr/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
