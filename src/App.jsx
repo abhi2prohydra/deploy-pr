@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from './components/Nav'
-import {HashRouter, Routes, Route} from 'react-router-dom'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
@@ -18,7 +18,7 @@ function App() {
     <div className="container-fluid">
 
    
-    <HashRouter>
+    <BrowserRouter>
     <Nav/>
     <Routes>
     <Route path='/' element={<Home/>}/>
@@ -34,7 +34,7 @@ function App() {
     <Route path='/update/:id' element={<Update/>}/>
 
     </Routes>
-    </HashRouter>
+    </BrowserRouter>
     </div>
     </>
   )
