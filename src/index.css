@@ -1,0 +1,27 @@
+.login{
+    cursor: pointer;
+}
+  
+
+.active-link{
+    border-color: green !important;
+    color: green !important;
+    border-top-left-radius: 20px !important;
+
+}
+
+.pointer{
+    cursor: pointer;
+    
+}
+.pointer:hover{
+    color:red;
+    text-shadow: 0 0 10px black;
+}
+
+.notes-scroll::-webkit-scrollbar{
+    display: none;
+}
+.notes-scroll{
+    word-wrap: break-word;
+}
